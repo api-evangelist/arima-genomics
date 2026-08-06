@@ -1,7 +1,18 @@
 aid: arima-genomics
 name: Arima Genomics
-description: 'Arima Genomics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Arima Genomics is a San Diego based cancer diagnostics company built on
+  Hi-C sequencing and 3D genome science. Founded in 2015 to study how DNA is organized
+  in three dimensions, the company now develops clinical tests and technology platforms
+  that detect cancer-driving structural alterations — noncanonical fusions, enhancer
+  hijacking, extrachromosomal DNA (ecDNA) and complex rearrangements — from routine
+  FFPE tumor tissue that conventional DNA and RNA profiling can leave unresolved. Its
+  surface spans research products (Arima-HiC+, Arima High Coverage HiC, Promoter and
+  Custom Capture HiC, HiC FFPE, Arima CiFi), lab services including Single Cell Methyl-3C
+  and multi-omics, the Aventa FusionPlus and Aventa Lymphoma clinical tests, and biopharma
+  partnership programs. Arima publishes open-source bioinformatics pipelines on GitHub
+  (Arima-HiC mapping pipeline, Arima-CHiC, Arima-SV-Pipeline) but operates no public
+  web API, developer portal or machine-readable specification.'
+image: http://static1.squarespace.com/static/69efef935d9d4c389c1f1e7a/t/6a06451aea5c316731756a9f/1778795802107/ArimaGenomics_Logo_FullColor_Large_150dpi.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/arima-genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,13 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Genomics
+- Cancer Diagnostics
+- Life Sciences
+- Sequencing
+- Bioinformatics
+- Precision Medicine
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,49 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://arimagenomics.com/
+- type: ResearchSite
+  url: https://discovery.arimagenomics.com/
+- type: Blog
+  url: https://discovery.arimagenomics.com/resources/blog/
+- type: BlogRSS
+  url: https://discovery.arimagenomics.com/feed/
+- type: Support
+  url: https://discovery.arimagenomics.com/faqs/
+- type: ContactUs
+  url: https://arimagenomics.com/contact
+- type: GitHubOrganization
+  url: https://github.com/ArimaGenomics
+- type: TermsOfService
+  url: https://arimagenomics.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://arimagenomics.com/privacy-policy
+- type: DomainSecurity
+  url: security/arima-genomics-domain-security.yml
+- type: LLMsTxt
+  url: llms/arima-genomics-llms.txt
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Arima Genomics sells Hi-C reagent kits, lab services and the Aventa clinical
+    tests; its "Documentation" library is wet-lab kit PDFs, its open-source output is
+    command-line bioinformatics pipelines on GitHub, and every OpenAPI and /.well-known
+    probe across arimagenomics.com, discovery.arimagenomics.com and courses.arimagenomics.com
+    returned 404 while api./developer./docs.arimagenomics.com do not resolve.
+  evidence:
+  - url: https://arimagenomics.com/openapi.json
+    status: 404
+  - url: https://discovery.arimagenomics.com/openapi.json
+    status: 404
+  - url: https://arimagenomics.com/.well-known/agent-card.json
+    status: 404
+  - url: https://discovery.arimagenomics.com/documentation/
+    status: 200
+  - url: https://github.com/ArimaGenomics
+    status: 200
+  checked: '2026-08-06'
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

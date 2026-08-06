@@ -42,5 +42,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arima Genomics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Arima Genomics is a San Diego based cancer diagnostics company built on Hi-C sequencing and 3D genome science. Founded in 2015, it develops clinical tests and research products that detect cancer-driving structural alterations — noncanonical fusions, enhancer hijacking, extrachromosomal DNA (ecDNA) and complex rearrangements — from routine FFPE tumor tissue.
+
+**No public API surface.** As of 2026-08-06 Arima Genomics publishes no web API, developer portal, or machine-readable specification. Its "Documentation" library is wet-lab kit user guides in PDF, and its open-source output is command-line bioinformatics pipelines. See `x-coverage` in `apis.yml` for the probes behind that finding.
+
+- https://arimagenomics.com/
+- https://discovery.arimagenomics.com/
+- https://github.com/ArimaGenomics
