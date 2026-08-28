@@ -12,6 +12,17 @@ description: 'Arima Genomics is a San Diego based cancer diagnostics company bui
   partnership programs. Arima publishes open-source bioinformatics pipelines on GitHub
   (Arima-HiC mapping pipeline, Arima-CHiC, Arima-SV-Pipeline) but operates no public
   web API, developer portal or machine-readable specification.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: http://static1.squarespace.com/static/69efef935d9d4c389c1f1e7a/t/6a06451aea5c316731756a9f/1778795802107/ArimaGenomics_Logo_FullColor_Large_150dpi.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/arima-genomics/refs/heads/main/apis.yml
 x-type: company
