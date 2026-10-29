@@ -64,10 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arima Genomics is a San Diego based cancer diagnostics company built on Hi-C sequencing and 3D genome science. Founded in 2015, it develops clinical tests and research products that detect cancer-driving structural alterations — noncanonical fusions, enhancer hijacking, extrachromosomal DNA (ecDNA) and complex rearrangements — from routine FFPE tumor tissue.
+Arima Genomics is a San Diego based cancer diagnostics company built on Hi-C sequencing and 3D genome science. Founded in 2015 to study how DNA is organized in three dimensions, the company now develops clinical tests and technology platforms that detect cancer-driving structural alterations — noncanonical fusions, enhancer hijacking, extrachromosomal DNA (ecDNA) and complex rearrangements — from routine FFPE tumor tissue that conventional DNA and RNA profiling can leave unresolved. Its surface spans research products (Arima-HiC+, Arima High Coverage HiC, Promoter and Custom Capture HiC, HiC FFPE, Arima CiFi), lab services including Single Cell Methyl-3C and multi-omics, the Aventa FusionPlus and Aventa Lymphoma clinical tests, and biopharma partnership programs. Arima publishes open-source bioinformatics pipelines on GitHub (Arima-HiC mapping pipeline, Arima-CHiC, Arima-SV-Pipeline) but operates no public web API, developer portal or machine-readable specification.
 
-**No public API surface.** As of 2026-08-06 Arima Genomics publishes no web API, developer portal, or machine-readable specification. Its "Documentation" library is wet-lab kit user guides in PDF, and its open-source output is command-line bioinformatics pipelines. See `x-coverage` in `apis.yml` for the probes behind that finding.
+**Areas:** Company · Genomics · Cancer Diagnostics · Life Sciences · Sequencing · Bioinformatics · Precision Medicine · Biotechnology
 
-- https://arimagenomics.com/
-- https://discovery.arimagenomics.com/
-- https://github.com/ArimaGenomics
+## Arima Genomics on APIs.io
+
+Everything profiled for Arima Genomics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arima-genomics/](https://apis.io/providers/arima-genomics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arima Genomics Domain Security](https://apis.io/security/arima-genomics/arima-genomics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arimagenomics.com/)
+- [Support](https://discovery.arimagenomics.com/faqs/)
+- [Blog](https://discovery.arimagenomics.com/resources/blog/)
+- [Terms of service](https://arimagenomics.com/terms-of-use)
+- [Privacy policy](https://arimagenomics.com/privacy-policy)
+- [GitHub](https://github.com/ArimaGenomics)
+
+## API Evangelist rating
+
+**Kin Score 11.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arima-genomics/](https://apis.io/providers/arima-genomics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arima Genomics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arima-genomics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
